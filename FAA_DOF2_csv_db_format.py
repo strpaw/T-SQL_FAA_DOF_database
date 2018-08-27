@@ -50,7 +50,7 @@ def FAA_DOF2csv_tblObstruction_format(in_DOF_file, out_csv_file):
                         writer.writerow({'ObsNumber': line[0:9],
                                          'VerifStat': line[10],
                                          'CtryStateID': line[0:2],
-                                         'CityName': "A",
+                                         'CityName': '',
                                          'LatDMS': line[35:47],
                                          'LonDMS': line[48:61],
                                          'ObsType': line[62:80].rstrip(),
